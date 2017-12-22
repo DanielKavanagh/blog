@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - apt-get update -y
+      - apt-get -f install
       - apt-get install hugo -y
   build:
     commands:
