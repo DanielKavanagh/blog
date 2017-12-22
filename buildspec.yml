@@ -1,8 +1,10 @@
 version: 0.2
 
 phases:
+  install:
+    commands:
+      - apt-get update -y
+      - apt-get install hugo -y
   build:
     commands:
-      - ls /usr/local/bin
-      - whoami
-      - find / -name "hugo"
+      - hugo version
