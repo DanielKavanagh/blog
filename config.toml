@@ -1,5 +1,24 @@
 baseURL = "https://blog.danielkavanagh.io/"
 languageCode = "en-us"
+copyright = "Copyright &copy; 2017 - Daniel Kavanagh"
+canonifyurls = true
 title = "Blog"
-theme = "kiera"
+theme = "Kiera"
 
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = ""
+    github = ""
+    gitlab = ""
+    linkedin = ""
+    facebook = ""
+    twitter = ""
+    instagram = ""
+
+[params]
+    tagline = "A Hugo theme for creative and technical writing"
