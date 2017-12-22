@@ -6,4 +6,4 @@ phases:
       - pwd
       - echo $PATH
       - ls -l
-      - /user/local/bin/hugo version
+      - /usr/local/bin/hugo version
