@@ -3,7 +3,6 @@ version: 0.2
 phases:
   build:
     commands:
-      - pwd
-      - echo $PATH
-      - ls -l
-      - /usr/local/bin/hugo version
+      - ls /usr/local/bin
+      - chmod +X /usr/local/bin/hugo
+      - /usr/local/bin/hugo 
