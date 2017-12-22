@@ -5,6 +5,8 @@ phases:
     commands:
       - pwd
       - ls -al
+      - ls -al themes
+      - ls -al themes/kiera
       - cat config.toml
       - hugo -v
       - ls -al public/
