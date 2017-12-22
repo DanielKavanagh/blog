@@ -4,5 +4,5 @@ phases:
   build:
     commands:
       - ls /usr/local/bin
-      - chmod +X /usr/local/bin/hugo
-      - /usr/local/bin/hugo 
+      - which hugo
+      - ls /root
