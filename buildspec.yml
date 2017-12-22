@@ -4,9 +4,9 @@ phases:
   install:
     commands:
       - apt-get update -y
-      - apt-get -f install
+      - apt-get -f install -y
       - sudo apt-get install snapd -y
-      - snap install hugo
+      - snap install hugo -y
   build:
     commands:
       - hugo version
