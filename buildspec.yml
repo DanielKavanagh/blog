@@ -5,6 +5,7 @@ phases:
     commands:
       - pwd
       - ls -al
+      - cat config.toml
       - hugo -v
       - ls -al public/
 artifacts:
