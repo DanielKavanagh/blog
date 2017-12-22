@@ -6,6 +6,7 @@ phases:
       - pwd
       - ls -al
       - hugo
+      - ls -al public/
 artifacts:
   files:
     - public/**/*
