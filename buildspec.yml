@@ -4,4 +4,8 @@ phases:
   build:
     commands:
       - pwd
-      - hugo version
+      - ls -al
+      - hugo
+artifacts:
+  files:
+    - public/**/*
