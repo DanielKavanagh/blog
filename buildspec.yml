@@ -1,12 +1,7 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - apt-get update -y
-      - apt-get -f install -y
-      - sudo apt-get install snapd -y
-      - snap install hugo -y
   build:
     commands:
+      - pwd
       - hugo version
