@@ -3,5 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - hugo --debug
+      - pwd
+      - echo $PATH
       - ls -l
+      - hugo version
