@@ -6,13 +6,7 @@ phases:
       - git clone --depth=1 https://github.com/avianto/hugo-kiera.git themes/kiera/
   build:
     commands:
-      - pwd
-      - ls -al
-      - ls -al themes
-      - ls -al themes/kiera
-      - cat config.toml
       - hugo -v
-      - ls -al public/
   post_build:
     commands:
       - aws s3 sync public/ s3://blog.danielkavanagh.io/
