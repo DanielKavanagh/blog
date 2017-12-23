@@ -15,4 +15,4 @@ phases:
       - ls -al public/
   post_build:
     commands:
-      - aws s3 cp . s3://blog.danielkavanagh.io/ --recursive
+      - aws s3 sync . s3://blog.danielkavanagh.io/ --recursive
