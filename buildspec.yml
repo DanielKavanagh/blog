@@ -1,6 +1,9 @@
 version: 0.2
 
 phases:
+  pre_build:
+    commands:
+      - git clone --depth=1 https://github.com/avianto/hugo-kiera.git themes/
   build:
     commands:
       - pwd
