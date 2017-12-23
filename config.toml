@@ -1,4 +1,4 @@
-baseURL = "https://blog.danielkavanagh.io/"
+baseURL = "http://blog.danielkavanagh.io.s3-website-eu-west-1.amazonaws.com/"
 languageCode = "en-us"
 copyright = "Copyright &copy; 2017 - Daniel Kavanagh"
 canonifyurls = true

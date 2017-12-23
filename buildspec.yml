@@ -13,6 +13,6 @@ phases:
       - cat config.toml
       - hugo -v
       - ls -al public/
-artifacts:
-  files:
-    - public/**/*
+  post_build:
+    commands:
+      - aws s3 cp . s3://blog.danielkavanagh.io/ --recursive
