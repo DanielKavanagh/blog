@@ -1,4 +1,4 @@
-baseURL = "http://danielkavanagh.io"
+baseURL = "http://blog.danielkavanagh.io"
 languageCode = "en-us"
 copyright = "Copyright &copy; 2017 - Daniel Kavanagh"
 canonifyurls = true
