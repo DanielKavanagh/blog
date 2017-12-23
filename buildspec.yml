@@ -15,4 +15,4 @@ phases:
       - ls -al public/
   post_build:
     commands:
-      - aws s3 sync . s3://blog.danielkavanagh.io/
+      - aws s3 sync public/ s3://blog.danielkavanagh.io/
