@@ -6,7 +6,7 @@ phases:
       - git clone --depth=1 https://github.com/avianto/hugo-kiera.git themes/kiera/
   build:
     commands:
-      - hugo -v
+      - sleep 500
   post_build:
     commands:
       - aws s3 sync public/ s3://blog.danielkavanagh.io/
